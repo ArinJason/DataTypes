@@ -1,0 +1,30 @@
+       Refer : MDN , Medium, Linkedin , DevBlogs
+
+
+                                        Datatypes
+
+Definition (datatype)
+defines the kind of value a variable can hold and the operations that can be performed on it. It helps the compiler or interpreter understand how the programmer intends to use the data.
+
+category(Primitive & non primitive)
+
+Primitive definition
+Primitive data types are the most basic types of data. They are predefined by the language and serve as the building blocks for data manipulation.
+
+Types
+Integer Definition: Whole number without decimal Example: 10, -5, 2025.
+Float Definition: Number with decimal point Example: 3.14, -0.99, 100.0.
+Boolean Definition: Logical value representing true or false Example: True, False.
+String Definition: Sequence of characters Example: "HELLO", "123", "WHERE911".
+Undefined Definition: A variable that has been declared but not assigned a value Example: let x;  x is undefined.
+Null Definition: Represents an intentional absence of any object value Example: let y = null;
+Symbol Definition: Unique and immutable primitive value often used as object keys Example: let sym = Symbol("id");
+BigInt Definition: Represents large integers beyond the safe limit of Number Example: 1234567890123456789012345678901234567890n
+
+Non Primitive definition
+Complex types built using primitive types. They can store multiple values and offer more functionality.
+
+Types
+Object Definition: Collection of key-value pairs Example: { name: "Bran", age: 39 }.
+Array Definition: Ordered list of values Example: [1,3,4,10,” ”,"Hello”].
+RegExp Definition: Pattern used to match character combinations in strings Example: /[A-Z]{5}/
